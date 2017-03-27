@@ -1,0 +1,54 @@
+Assignment 2 Report
+
+Name:Preksha Raj Shimoga Basavaraja
+
+Part I.
+
+1. Performance of standard perceptron on the development data with 100% of the training data
+1a. spam precision:0.99
+1b. spam recall: 0.98
+1c. spam F1 score:0.98 
+1d. ham precision:0.95
+1e. ham recall:0.97
+1f. ham F1 score:0.96
+
+2. Performance of averaged perceptron on the development data with 100% of the training data
+2a. spam precision:0.99
+2b. spam recall:0.98
+2c. spam F1 score:0.99 
+2d. ham precision:0.96
+2e. ham recall:0.98 
+2f. ham F1 score:0.97
+
+Part II.
+
+3. Performance of standard perceptron on the development data with 10% of the training data
+3a. spam precision:0.97
+3b. spam recall: 0.90
+3c. spam F1 score:0.93
+3d. ham precision:0.79
+3e. ham recall:0.93 
+3f. ham F1 score:0.85
+
+4. Performance of averaged perceptron on the development data with 10% of the training data
+4a. spam precision:0.96
+4b. spam recall:0.92 
+4c. spam F1 score:0.94 
+4d. ham precision:0.82
+4e. ham recall: 0.90
+4f. ham F1 score:0.86
+
+Part III. 
+
+5. How did you calculate precision, recall and F1 score? If you used a
+separate script, please give the name of the script and describe how
+to run it.
+I have written a seperate script called calculate.py where we need to specify the output filename of which we need the stats,
+as sys.argv[1] while running the script.It will calculate Precision , Recall and F1 score and print it on the terminal.
+>>python calculate.py per_output.txt
+
+
+6. How did you separate 10% of the training data? If you used a
+separate script, please give the name of the script and describe how
+to run it. Explain how you or your code choose the files.
+-I just Manually got 10 % of the total training set and used it to train the model and ran the classifier on that model.
